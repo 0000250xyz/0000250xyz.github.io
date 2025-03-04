@@ -1,0 +1,30 @@
+* {
+    background: #3c3c3c;
+    color: white;
+    font-family: monospace;
+    font-size: 110%;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.info {
+    justify-content: left;
+    width:50%;
+    
+}
+
+#dex {
+    flex-direction: column;
+    padding: 5px;
+}
+
+a {
+    color: white;
+}
+
+a::before {
+    content: "~";
+}
